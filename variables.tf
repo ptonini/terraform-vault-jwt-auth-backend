@@ -2,6 +2,7 @@ variable "path" {}
 
 variable "type" {
   default = "jwt"
+  nullable = false
 }
 
 variable "oidc_discovery_url" {}
